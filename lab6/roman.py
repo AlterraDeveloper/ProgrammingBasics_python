@@ -62,8 +62,8 @@ class Roman(object):
         return self.value // other.value
 
 
-roman1 = Roman('XL')
-roman2 = Roman('IX')
+roman1 = Roman('MCMXCVIII')
+roman2 = Roman('XII')
 print(str(roman1.value) + ' and ' + str(roman2.value))
 print(str(roman1 + roman2) + ' ' + Roman.itoa(roman1 + roman2))
 print(str(roman1 - roman2) + ' ' + Roman.itoa(roman1 - roman2))
